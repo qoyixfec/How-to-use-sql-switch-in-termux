@@ -2,7 +2,6 @@
   "name": "sqlite-keyvalue-store",
   "version": "1.0.0",
   "type": "module",
-  "description": "Simple key-value store using SQLite in pure JavaScript",
   "main": "src/app.js",
   "scripts": {
     "start": "node src/app.js",
