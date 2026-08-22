@@ -1,0 +1,20 @@
+// Configuration file for the application. You can change ts btw
+// Contains default settings and environment detection.
+
+export const config = {
+  table: 'settings',
+  dbFile: './data.db',
+  defaults: {
+    theme: 'dark',
+    lang: 'en',
+    timeout: 5000
+  }
+};
+
+export function isProduction() {
+  return process.env.NODE_ENV === 'production';
+}
+
+export function getDbPath() {
+  return isProduction() ? './prod.db' : config.dbFile;
+}
