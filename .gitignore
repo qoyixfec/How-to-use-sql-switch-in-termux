@@ -4,3 +4,4 @@ data.db
 .env
 *.db
 npm-debug.log*
+.DS_Store
