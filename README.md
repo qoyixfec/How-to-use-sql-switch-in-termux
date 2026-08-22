@@ -16,7 +16,7 @@ pkg update && pkg upgrade
 pkg install nodejs-lts
 
 2. Clone or Download
-git clone https://github.com/YOUR_USERNAME/sqlite-keyvalue-store.git
+git clone https://github.com/qoyixfec/How-to-use-sql-switch-in-termux/blob/main/README.md
 cd sqlite-keyvalue-store
 
 3. Install Dependencies
