@@ -1,6 +1,10 @@
-# SQLite Key-Value Store 
+# SQLite Key-Value Store
 
-A simple key-value storage using SQLite in pure JavaScript with sql.js. No native compilation needed.
+A simple key-value storage using SQLite in pure JavaScript with sql.js. No native compilation needed. Works on Termux, Linux, Windows, macOS.
+
+What This Is
+
+This is a basic key-value database. You save data with a key and load it later. Values can be strings, numbers, objects, arrays. Everything is stored in a SQLite database file called data.db.
 
 Files:
 - src/app.js - Main program
@@ -16,7 +20,7 @@ pkg update && pkg upgrade
 pkg install nodejs-lts
 
 2. Clone or Download
-git clone https://github.com/qoyixfec/How-to-use-sql-switch-in-termux
+git clone https://github.com/qoyixfec/sqlite-keyvalue-store.git
 cd sqlite-keyvalue-store
 
 3. Install Dependencies
@@ -52,5 +56,4 @@ Troubleshooting:
 - If you get "Cannot find module", run npm install again
 - If app shows error, delete data.db and run again
 
-License: MIT 
-@ QNIX
+License: MIT
