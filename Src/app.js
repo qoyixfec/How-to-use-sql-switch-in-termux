@@ -1,4 +1,4 @@
-//main
+// main file.
 
 import { getDb, saveDb, closeDb } from './db.js';
 import { isValidKey, log } from './helpers.js';
