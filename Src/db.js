@@ -1,5 +1,5 @@
-// DATABASE CONNECTION AND MANAGEMENT
-// This file handles all database operations
+// Database connection management.
+// Ts handles all the db
 
 import initSqlJs from 'sql.js';
 import fs from 'fs';
