@@ -56,4 +56,4 @@ Troubleshooting:
 - If you get "Cannot find module", run npm install again
 - If app shows error, delete data.db and run again
 
-License: MIT
+@ Qnix
