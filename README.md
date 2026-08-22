@@ -16,7 +16,7 @@ pkg update && pkg upgrade
 pkg install nodejs-lts
 
 2. Clone or Download
-git clone https://github.com/qoyixfec/How-to-use-sql-switch-in-termux/blob/main/README.md
+git clone https://github.com/qoyixfec/How-to-use-sql-switch-in-termux
 cd sqlite-keyvalue-store
 
 3. Install Dependencies
