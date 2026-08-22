@@ -1,3 +1,5 @@
+//main
+
 import { getDb, saveDb, closeDb } from './db.js';
 import { isValidKey, log } from './helpers.js';
 import { config } from './config.js';
